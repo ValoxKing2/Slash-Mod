@@ -9,6 +9,9 @@ Do not remove the back-link in this web template
 @import url(http://fonts.googleapis.com/css?family=Raleway:800,700,400);
 @import url(http://fonts.googleapis.com/css?family=Signika:400,600);
 
+
+/* Search Word = "" /*
+
 /* Reset
 ---------------------------------*/
 ul {
@@ -431,7 +434,7 @@ a.contact_btn {
     background: #fff;
     text-transform: uppercase;
     display: block;
-    width: 176px;
+    width: 200px;
     height: 49px;
     text-align: center;
     line-height: 49px;
@@ -448,11 +451,14 @@ a.contact_btn {
 
 a.contact_btn:hover {
     background: #000000;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 .input-text {
     background: transparent;
+}
+.logo {
+    size: 100%;
 }
 
 
@@ -612,7 +618,7 @@ img {
 
 
 .client_logos {
-    background: #0016df;
+    background: #000000;
     padding: 60px 0;
     margin-top: 60px;
 }
